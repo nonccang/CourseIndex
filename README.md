@@ -1,2 +1,0 @@
-# CourseIndex
-Created with CodeSandbox

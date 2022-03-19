@@ -1,0 +1,200 @@
+.container {
+  width: 1280px;
+  margin: 120px;
+  padding: 80px;
+  margin-left: 300px;
+}
+.lb {
+  width: 160px;
+
+  position: fixed;
+  z-index: 10;
+
+  margin-top: -20px;
+  margin-right: 100px;
+}
+.home {
+  border-bottom: burlywood solid 2px;
+}
+
+.top {
+  margin-top: 750px;
+}
+a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 24pt;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+a:hover {
+  color: burlywood;
+}
+.R1 {
+  position: absolute;
+  z-index: 10;
+}
+.R1A {
+  width: 700px;
+
+  margin-left: 500px;
+  position: relative;
+
+  z-index: 9;
+}
+
+.R2 {
+  width: 700px;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+
+.R2A {
+  width: 700px;
+}
+
+.R3 {
+  float: left;
+  margin-left: 150px;
+
+  margin-top: 200px;
+  position: absolute;
+}
+.R3A {
+  width: 700px;
+  position: relative;
+  top: 300px;
+  left: 200px;
+}
+.R4 {
+  margin-top: 500px;
+  margin-right: 480px;
+  width: 500px;
+  position: absolute;
+  z-index: 10;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18pt;
+  color: burlywood;
+  margin-top: 20px;
+  border-top: solid 1px rgb(156, 156, 156);
+  padding-top: 20px;
+}
+
+p {
+  font-size: 15pt;
+  margin-top: 50px;
+
+  color: rgb(194, 194, 194);
+}
+mark {
+  background-color: burlywood;
+}
+.O {
+  width: 700px;
+  height: 700px;
+
+  position: absolute;
+  z-index: 1;
+  top: -300px;
+}
+
+.O span {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+
+  border-radius: 40% 50% 45% 50%/45% 60% 50% 55%;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.O :nth-child(1) {
+  animation: circle 3s linear infinite;
+  background-color: rgb(71, 191, 221);
+  opacity: 0.3;
+}
+.O :nth-child(2) {
+  animation: circle 5s linear infinite;
+  animation-direction: reverse;
+  background-color: rgb(71, 149, 221);
+  opacity: 0.5;
+}
+.O :nth-child(3) {
+  animation: circle 10s linear infinite;
+  background-color: rgb(71, 93, 221);
+  opacity: 0.2;
+}
+.O2 {
+  width: 700px;
+  height: 700px;
+  left: 1400px;
+  margin-top: 600px;
+  position: absolute;
+  z-index: 1;
+}
+.O2 span {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+
+  border-radius: 30% 50% 45% 65%/35% 60% 50% 60%;
+}
+
+.O2 :nth-child(1) {
+  animation: circle 3s linear infinite;
+  background-color: rgb(71, 179, 221);
+  opacity: 0.3;
+}
+.O2 :nth-child(2) {
+  animation: circle 5s linear infinite;
+  animation-direction: reverse;
+  background-color: rgb(71, 161, 221);
+  opacity: 0.5;
+}
+.O2 :nth-child(3) {
+  animation: circle 10s linear infinite;
+  background-color: rgb(71, 186, 221);
+  opacity: 0.2;
+}
+.O3 {
+  width: 500px;
+  height: 500px;
+
+  margin-top: 700px;
+  position: absolute;
+  z-index: 1;
+}
+.O3 span {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+
+  border-radius: 30% 50% 45% 65%/35% 60% 50% 60%;
+}
+
+.O3 :nth-child(1) {
+  animation: circle 3s linear infinite;
+  background-color: rgb(71, 179, 221);
+  opacity: 0.3;
+}
+.O3 :nth-child(2) {
+  animation: circle 5s linear infinite;
+  animation-direction: reverse;
+  background-color: rgb(71, 161, 221);
+  opacity: 0.5;
+}
+.O3 :nth-child(3) {
+  animation: circle 10s linear infinite;
+  background-color: rgb(71, 186, 221);
+  opacity: 0.2;
+}

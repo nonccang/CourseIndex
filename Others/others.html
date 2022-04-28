@@ -4,9 +4,49 @@
     <meta charset="UTF-8" />
     <title>others</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script>
+    <script src="sketch.js"></script>
+    <style>
+      * {
+        background-color: rgb(40, 40, 54);
+        color: gainsboro;
+      }
+      div {
+        height: 20px;
+        border: black 1px solid;
+        background-color: white;
+        width: 1920px;
+      }
+    </style>
   </head>
   <body>
-    This is other contents
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../process/process.html">Working process</a></li>
+      <li><a href="../Rresponse/Rresponse.html">Reading response</a></li>
+      <li><a href="../Resource/Resource.html">Resource </a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">My projects &#9662;</a>
+        <div class="dropdown-content">
+          <a href="../reflection/ctool.html">Project 1</a>
+          <a href="../reflection/21sketches.html">Project 2</a>
+          <a href="../reflection/Mscreen.html">Project 3</a>
+        </div>
+      </li>
+    </ul>
+    <br /><br />
+    <br /><br />
+
+    <h1>Welcome to my memo tool</h1>
+    <p>
+      Using mouse click, draw something or write something! Change the colour
+      using colour picker on the top of the left!
+      <br />
+      <b>'p'</b>: pen <b> 'e'</b> :Eraser <b>'a'</b> : short cut for "Erase All"
+      <b>'s'</b> : short cut for "save" <b>']'</b> : increase the brush-size
+      <b> '['</b>: decrease the brush-size
+    </p>
+    <div></div>
 
     <!-- 
   https://p5js.org/ko/examples/interaction-tickle.html

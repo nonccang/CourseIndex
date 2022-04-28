@@ -21,3 +21,11 @@ $(document).ready(function () {
     $(".R3A").slideToggle();
   });
 });
+
+$(document).ready(function () {
+  $(".R4A").css({ display: "none" });
+
+  $(".R4").click(function () {
+    $(".R4A").slideToggle();
+  });
+});

@@ -68,10 +68,25 @@ h4 {
 }
 
 .details div {
-  background-color: white;
+
   width: 400px;
   height: 570px;
   border-radius: 50px;
+}
+.texts{
+  background-color: rgb(31, 31, 31);
+  color: white;
+  width: 400px;
+  height: 570px;
+  position: absolute;
+  top: 0%;
+  
+  opacity:0%;
+  transition:0.5s;
+  
+}
+.details div:hover .texts{
+  opacity:80%;
 }
 
 img {
@@ -106,6 +121,11 @@ img {
   float: left;
   position: relative;
   z-index: 1;
+}
+
+.c3_1 a{
+  color: rgb(53, 48, 48);
+  
 }
 .c3_2_1 {
   width: 300px;

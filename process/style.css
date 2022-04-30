@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: roboto;
+
 }
 
 .lb {
@@ -64,7 +65,7 @@ li{
   margin-left: 1600px;
   margin-top: -50px;
   position: fixed;
-  border-left: rgb(194, 194, 194) solid 2px;
+ 
   background-color: rgb(233, 233, 233);
 }
 
@@ -74,7 +75,7 @@ a {
   font-size: 18pt;
   color: brown;
   width: 200px;
-  border-bottom: brown solid 2px;
+
 }
 a:hover {
   color: brown;

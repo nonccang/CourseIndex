@@ -9,8 +9,8 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 
   background(234, 227, 178);
-  bar = createP("	&#8595;Pick your colour");
-  bar.style("background-color", "DarkKhaki");
+  bar = createP("	&#8595;Pick your colour and press'p'");
+  bar.style("background-color", "Darkblue");
   bar.position(20, 223);
   bar.mouseOver(changeColor);
   bar.mouseOut(changeColor2);
@@ -29,7 +29,7 @@ function changeColor() {
   bar.style("background-color", "Coral");
 }
 function changeColor2() {
-  bar.style("background-color", "DarkKhaki");
+  bar.style("background-color", "Darkblue");
 }
 
 function erase() {

@@ -23,6 +23,35 @@
   margin-top: 200px;
   margin-left: 50px;
 }
+li{
+  margin-left: 50px;
+  margin-top:20px;
+  list-style: none;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  
+  background-color: #222222;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color:brown;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 .lb_3 {
   width: 80px;
   height: 20px;
@@ -48,7 +77,7 @@ a {
   border-bottom: brown solid 2px;
 }
 a:hover {
-  color: white;
+  color: brown;
 }
 .container {
   width: 1280px;
